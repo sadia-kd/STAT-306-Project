@@ -1,5 +1,5 @@
 # Loading in the data set
-flightdata = read.csv("data/flights.csv")
+flightdata = read.csv("flights.csv")
 
 # Removing unnecessary columns: "X" and "flight"
 flightdata = flightdata[, 2:12]
@@ -197,7 +197,7 @@ summary(Indigo_model)
 
 # Airline 6: Air_India 
 airline_Air_India = flightdata[flightdata$airline == "Air_India",]
-unique(airli-ne_Air_India$airline)
+unique(airline_Air_India$airline)
 
 colnames(airline_Air_India)
 head(airline_Air_India)
